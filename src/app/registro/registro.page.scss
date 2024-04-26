@@ -1,0 +1,34 @@
+/* Estilos para la página de inicio de sesión */
+ion-content {
+    --background: #242e3e;
+    /* Color de fondo */
+    color: #ffffff;
+    /* Color de texto */
+}
+
+/* Estilos para el formulario de inicio de sesión */
+ion-input {
+    height: 60px;
+    --color: #ffffff;
+    /* Color de texto */
+}
+
+
+ion-button {
+    --background: #38414e;
+    /* Color de fondo */
+    --color: #ffffff;
+    /* Color de texto */
+    margin-top: 20px;
+}
+
+.formu {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    flex-direction: column;
+    height: 100vh;
+    /* Altura del contenido igual a la altura de la ventana */
+}
